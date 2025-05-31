@@ -1,0 +1,9 @@
+-> Laços de Repetição
+-> Listas
+-> Dicionarios
+-> Funções 
+-> Tratamento de Erros
+-> Manipulação de Arquivos 
+-> Fazer Exercícios + Fazer a prova p2
+
+
