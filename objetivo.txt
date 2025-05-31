@@ -1,3 +1,6 @@
+-> ande  e or 
+
+
 -> Laços de Repetição
 -> Listas
 -> Dicionarios
@@ -5,5 +8,4 @@
 -> Tratamento de Erros
 -> Manipulação de Arquivos 
 -> Fazer Exercícios + Fazer a prova p2
-
 
