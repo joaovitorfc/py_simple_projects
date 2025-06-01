@@ -1,0 +1,10 @@
+Principais pontos:
+Loop "while": Executa um bloco de código enquanto uma condição for verdadeira. É importante tomar cuidado para evitar loops infinitos, que ocorrem quando a condição nunca se torna falsa, travando o programa.
+
+Loop "for": Itera sobre sequências como listas, strings ou intervalos numéricos. Permite executar uma ação para cada elemento da sequência de forma simples e clara.
+
+Manipulação de listas e strings: Os loops facilitam a navegação e manipulação de elementos dentro de coleções, como listas de números ou textos.
+
+Loops aninhados: Permitem colocar um loop dentro de outro, útil na criação de matrizes ou tabelas. Contudo, é importante gerenciar a complexidade para evitar dificuldades de leitura ou desempenho.
+
+Cuidados importantes: Sempre garantir uma condição de parada adequada para evitar que o loop continue indefinidamente.
