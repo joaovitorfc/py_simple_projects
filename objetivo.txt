@@ -1,8 +1,11 @@
 -> ande  e or 
-
-
 -> Laços de Repetição
 -> Listas
+
+
+
+
+
 -> Dicionarios
 -> Funções 
 -> Tratamento de Erros
