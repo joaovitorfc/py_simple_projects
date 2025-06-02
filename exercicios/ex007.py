@@ -70,6 +70,7 @@ if __name__ == "__main__":
 
         opcao = input("Digite sua escolha: ").strip()
 
+
         if opcao == "1":
             adicionar_filmes_assistidos()
         elif opcao == "2":
@@ -82,3 +83,8 @@ if __name__ == "__main__":
             break
         else:
             print("Opção inválida. Tente novamente.")
+
+
+
+
+
