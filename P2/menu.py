@@ -1,8 +1,5 @@
 
-from funcoes import adicionar_filmes_assistidos
-from funcoes import adicionar_filmes_para_assistir
-from funcoes import filmes_assistidos
-from funcoes import filme_para_assistir
+import funcoes 
 
 
 if __name__ == "__main__":
@@ -25,7 +22,7 @@ if __name__ == "__main__":
             print("\nFilmes assistidos:", filmes_assistidos)
             print("Filmes para assistir:", filme_para_assistir)
         elif opcao == "4":
-            print("Encerrando o programa. Até mais!")
+            print("Encerrando o programa.")
             break
         else:
             print("Opção inválida. Tente novamente.")
