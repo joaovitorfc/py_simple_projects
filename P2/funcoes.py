@@ -58,3 +58,18 @@ def adicionar_filmes_para_assistir():
 
         except ValueError:
             print("Erro! Certifique-se de digitar um número válido para a duração.")
+
+def salvar_em_arquivo(nome_arquivo, lista_filmes):
+    try:
+        with open(nome_arquivo, "w", encoding="utf-8") as arquivo:
+            for filme in lista_filmes:
+                arquivo.write(f"Nome: {filme['nome']}\n")
+                arquivo.write(f"Duração: {filme['duracao']} minutos\n")
+                if "comentario" in filme:
+                    arquivo.write(f"Comentário: {filme['comentario']}\n")
+                if "nota" in filme:
+                    arquivo.write(f"Nota: {filme['nota']}\n")
+                arquivo.write("\n")
+        print(f"Dados salvos em {nome_arquivo}")
+    except Exception as e:
+        print(f"Erro ao salvar arquivo: {e}")

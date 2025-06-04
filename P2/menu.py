@@ -1,6 +1,5 @@
 
-import funcoes 
-
+from funcoes import * 
 
 if __name__ == "__main__":
     print("Bem-vindo ao gerenciador de filmes!")
